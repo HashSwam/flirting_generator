@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lumanosimo&display=swap');
+
+body {
+    font-family: 'Lato', 'Lumanosimo', cursive sans-serif;
+    background-color: #F5CAC3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+  color: #F0EDEE;
+}
+
+h3{
+  position: absolute;
+  top: 80%;
+}
+
+a{
+  color: #340068;
+  text-decoration: none;
+}
+h3, a{
+ padding: 1px;
+ border-bottom: 2px solid white;
+}
+.quote{
+  font-weight: bold;
+  color: #F5E5FC;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #CB807D;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container:hover{
+  background-color: #BF514D;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F6839C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #932039;
+}
